@@ -1,6 +1,9 @@
+
+
 body{
     font-size: 20px;
     padding: 1.5rem;
+    --col-length: 8vw;
 }
 
 nav{
@@ -14,26 +17,29 @@ nav{
 #main-nav{
     grid-area: main-nav;
     display: grid;
-    grid-template-areas:
-        'logo input input input input input input input . . user user';
+    grid-template-columns: 9rem 9rem 9rem 9rem 9rem 9rem 9rem auto auto 9rem 9rem 9rem;
+    grid-template-rows: 2.5rem;
 }
 
 #a-logo{
-    grid-area: logo;
-    width: 6rem;
+    grid-column: 1 / 2;
+    padding-top: 0.25rem;
 }
 
 #google-logo{
-    width: 100%;
+    width: 6rem;
 }
 
 #search-bar{
-    grid-area: input;
-
+    grid-column: 2 / 7;
+    border: 1px solid lightgray;
+    border-radius: 25px;
 }
 
+
 #user-icon{
-    grid-area: user;
+    grid-column: 10 / 12;
+    border: 1px solid lightgray;
 }
 
 #mini-nav{
