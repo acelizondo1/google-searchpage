@@ -180,3 +180,15 @@ nav{
 #nav-tools{
     grid-column: 11/12;
 }
+
+.results-body{
+    width: 100rem;
+    margin-left: 11rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#results-numbers{
+    color: #70757a;
+    font-size: 14px;
+}
