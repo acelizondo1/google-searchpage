@@ -1,0 +1,45 @@
+body{
+    font-size: 20px;
+    padding: 1.5rem;
+}
+
+nav{
+    width: 98vw;
+    display: grid;
+    grid-template-areas: 
+    'main-nav'
+    'mini-nav';
+}
+
+#main-nav{
+    grid-area: main-nav;
+    display: grid;
+    grid-template-areas:
+        'logo input input input input input input input . . user user';
+}
+
+#a-logo{
+    grid-area: logo;
+    width: 6rem;
+}
+
+#google-logo{
+    width: 100%;
+}
+
+#search-bar{
+    grid-area: input;
+
+}
+
+#user-icon{
+    grid-area: user;
+}
+
+#mini-nav{
+    grid-area: mini-nav;
+}
+
+#search-submit{
+    display: inline-block;
+}
