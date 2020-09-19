@@ -8,6 +8,10 @@ body{
 
 nav{
     width: 98vw;
+    
+}
+
+#nav-form{
     display: grid;
     grid-template-areas: 
     'main-nav'
@@ -36,6 +40,19 @@ nav{
     border-radius: 25px;
 }
 
+#search-box{
+    padding-left: 1rem;
+}
+
+#search-input{
+    width: 85%;
+    height: 2rem;
+    border: none;
+}
+
+#search-input:focus{
+    outline: none;
+}
 
 #user-icon{
     grid-column: 10 / 12;
