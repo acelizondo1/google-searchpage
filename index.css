@@ -29,7 +29,7 @@ p{
 
 nav{
     padding: 1.25rem 1.25rem 0 1.25rem;
-    width: 100%;
+    width: 98.25%;
     border-bottom: 1px solid lightgray;
 }
 
@@ -203,7 +203,6 @@ nav{
 #results-container{
     margin-top: 1.5rem;
     width: 43rem;
-    border: 1px solid black;
 }
 
 .result{
@@ -243,4 +242,36 @@ nav{
     color: #4d5156;
     font-size: 14px;
     line-height: 1.58;
+}
+
+#related{
+    width: 50rem;
+}
+
+#related-searches{
+    font-size: 14px;
+    display: grid;
+    grid-template-areas: 'one two';
+}
+
+.related-link{
+    margin-bottom: 0.35rem;
+}
+
+.related-link a, #related-link a:hover{
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+#row-one{
+    grid-area: one;
+}
+
+#row-two{
+    grid-area: two;
+}
+
+footer{
+    margin-top: 1.5rem;
+    width: 43rem;
 }
