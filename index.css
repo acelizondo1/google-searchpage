@@ -231,6 +231,7 @@ nav{
 .result-title{
     display: block;
     margin-top: 0.5rem;
+    color: #1a3bc1;
 }
 
 .result-title:hover{
