@@ -1,7 +1,7 @@
 body{
     font-size: 20px;
-    padding: 1.25rem;
-    --col-length: 8vw;
+    font-family: Arial, Sans Serif;
+    text-decoration: none;
 }
 
 svg {
@@ -24,8 +24,9 @@ button:hover{
 }
 
 nav{
-    width: 98vw;
-    
+    padding: 1.25rem 1.25rem 0 1.25rem;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
 }
 
 #nav-form{
@@ -118,4 +119,64 @@ nav{
 
 #mini-nav{
     grid-area: mini-nav;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    align-content: center;
+    height: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    width: 43rem;
+}
+
+.current-nav{
+    border-bottom: 3px solid #1a73e8;
+}
+
+.mini-nav-item{
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    height: 1.75rem;
+}
+
+.mini-nav-item a{
+    text-decoration: none;
+    color: #5f6368;
+    margin-left: 0.5rem;
+}
+
+.mini-svg{
+    fill:  #5f6368;
+    width: 0.85rem;
+}
+
+#nav-all{
+    grid-column: 1/2;
+}
+
+#nav-news{
+    grid-column: 2/3;
+}
+
+#nav-maps{
+    grid-column: 3/4;
+}
+
+#nav-videos{
+    grid-column: 4/5;
+}
+
+#nav-shopping{
+    grid-column: 5/6;
+}
+
+#nav-more{
+    grid-column: 6/7;
+}
+
+#nav-settings{
+    grid-column: 10/11;
+}
+
+#nav-tools{
+    grid-column: 11/12;
 }
