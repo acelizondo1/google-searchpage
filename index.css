@@ -312,3 +312,40 @@ footer{
 .pages a:hover {
     text-decoration: underline;
 }
+
+#footer{
+    height: 5rem;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 0;
+}
+
+#browser-location{
+    padding-top: 1rem;
+    margin-left: 12rem;
+    font-size: 15px;
+}
+
+#browser-location a{
+    color: #5f6368;
+}
+
+#circle{
+    display:inline-block;
+    height: 0.75rem;
+    width: 0.75rem;
+    border-radius: 50%;
+    background-color: #9e9e9e;
+}
+
+#footer-links{
+    margin-top: 1rem;
+    margin-left: 12rem;
+}
+
+.footer-link{
+    font-size: 14px;
+    color: #848a92;
+    text-decoration: none;
+    margin-right: 1rem;
+}
